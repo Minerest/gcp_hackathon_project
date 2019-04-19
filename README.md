@@ -1,5 +1,5 @@
-# gcp_hackathon_project
-App name: Watchout!
+# App name: Watchout!
+
 
 The main Branch is currently dev. It will be merged to master sometime soon. 4-18-2019
 
