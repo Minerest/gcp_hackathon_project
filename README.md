@@ -1,10 +1,13 @@
 # gcp_hackathon_project
-City Smart app for dodging crime
+App name: Watchout!
+
+The main Branch is currently dev. It will be merged to master sometime soon. 4-18-2019
 
 File Structure:
-    The main function is located under ./flask_app.py
-    The data we currently read from is under ./json_updated.json
+    The main functions are located under ./flask_app.py
+    The database connection objects are under ./modals.py
+    The data we currently read from is from a MySQL server.
     The testing scripts are under ./tests/*
-        ./stress_test.py http://127.0.0.1/ is the format for the 
+        ./stress_test.py [IP ADDRESS] [PORT] is the format for the 
         command line argument. You can add any ip address you'd like
       
