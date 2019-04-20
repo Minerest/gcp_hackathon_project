@@ -164,7 +164,7 @@ def dump_db():
 @app.route("/single")
 def get_single():
 
-    schema = modals.get_location_schematic()
+    schema = modals.get_user_interface_schematic()
     schema["rapes"] = 0
     lat = request.args.get('lat', None)
     lon = request.args.get('lon', None)
@@ -175,18 +175,18 @@ def get_single():
     except Exception as e: # Can't give hackers any clues so same output as any other generic error.
         return "No data available"
 
-    upper_lat = float(lat + 0.05)
-    upper_lon = float(lon + 0.05)
-    lower_lat = float(lat - 0.05)
-    lower_lon = float(lon - 0.05)
+    upper_lat = float(lat + 0.01)
+    upper_lon = float(lon + 0.01)
+    lower_lat = float(lat - 0.01)
+    lower_lon = float(lon - 0.01)
 
     data_array = []
 
     Session = db.get_session()
 
-    for entry in Session.query(modals.Location).filter(and_(
-        modals.Location.longitude <= upper_lon, modals.Location.longitude >= lower_lon,
-        modals.Location.latitude <= upper_lat, modals.Location.latitude >= lower_lat
+    for entry in Session.query(modals.UserInterface).filter(and_(
+        modals.UserInterface.longitude <= upper_lon, modals.UserInterface.longitude >= lower_lon,
+        modals.UserInterface.latitude <= upper_lat, modals.UserInterface.latitude >= lower_lat
                                                                     )):
         d = entry.__dict__
         entry_json = dict()
@@ -203,7 +203,6 @@ def get_single():
             schema[k] += v
     try:
         Session.commit()
-        Session.flush()
     finally:
         Session.close()
     print(schema)
