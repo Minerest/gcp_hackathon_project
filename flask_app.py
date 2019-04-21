@@ -146,12 +146,11 @@ def dump_db():
     ''' Gets all the data from the db and print it as json '''
 
     def generate(t):
-        for k in t:
-            for v in k.items():
-                yield str(v) + '\n'
+        for item in t:
+            yield json.dumps(dict(item))
     a = []
     Session = db.get_session()
-    for entry in Session.query(modals.Location).all().limit(2000):
+    for entry in Session.query(modals.UserInterface).limit(2000):
         a.append(entry.__dict__)
     try:
         Session.commit()
