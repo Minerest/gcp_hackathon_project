@@ -147,7 +147,7 @@ def dump_db():
 
     def generate(t):
         for item in t:
-            yield json.dumps(dict(item))
+            yield json.dumps(str(item))
     a = []
     Session = db.get_session()
     for entry in Session.query(modals.UserInterface).limit(2000):

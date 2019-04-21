@@ -80,12 +80,17 @@ def main():
         print(e)
         return
 
+    longest_req = 0
+    shortest_req = 1500
+
     timings = []
     while not tester.q.empty():
         timings.append(tester.q.get())
 
     avg = 0
     for i in timings:
+        if i.total_seconds() > longest_req:
+            .
         avg += i.total_seconds()
     avg /= len(timings)
     print("Average Time per request = ", avg)
