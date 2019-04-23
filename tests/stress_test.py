@@ -1,4 +1,4 @@
-#!./../env/bin/python3
+#! /usr/bin/python3
 
 import threading
 import requests
@@ -7,6 +7,7 @@ import random
 import queue
 import sys
 
+err = 0
 
 class StressTester():
 
@@ -38,6 +39,7 @@ class StressTester():
 
     def make_request(self):
         ''' Picks a random known coordinate '''
+        global err
         start = datetime.now()
         indx = random.randint(0,5)
         locs = ["34.13,-117.27", "34.07,-117.28", "34.52,-117.43", "34.52,-117.43", "34.08,-117.24", "34.10,-117.28"]
@@ -47,7 +49,7 @@ class StressTester():
 
         r = requests.get(self.url + "?lat=" + x + "&lon=" + y)
         if r.status_code > 300:
-            print(r.status_code)
+            err += 1
         time = datetime.now() - start
         self.q.put(item=time, block=True)
 
@@ -90,8 +92,9 @@ def main():
     avg = 0
     for i in timings:
         if i.total_seconds() > longest_req:
-            .
-        avg += i.total_seconds()
+           avg += i.total_seconds()
+    global err
+    print("Errors: ", err)
     avg /= len(timings)
     print("Average Time per request = ", avg)
     time_it_took = datetime.now() - start_time
