@@ -48,7 +48,7 @@ class StressTester():
         y = str(y)
 
         r = requests.get(self.url + "?lat=" + x + "&lon=" + y)
-        if r.status_code > 300:
+        if r.status_code >= 300:
             err += 1
         time = datetime.now() - start
         self.q.put(item=time, block=True)
