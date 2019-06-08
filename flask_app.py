@@ -1,8 +1,9 @@
-#!/usr/bin/env python3
-from flask import Flask, request, Response
+#!env/bin/python3
+from flask import Flask, request, Response, render_template, send_from_directory
 import json
 from sqlalchemy import and_
 import logging
+import os
 # user library that contains the format for table entries.
 import modals
 
@@ -16,7 +17,7 @@ import modals
 '''
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='/home/paulina/Desktop/www/gcp_hackathon_project/static/static')
 
 db = modals.CloudDB()
 
@@ -208,11 +209,48 @@ def get_single():
     return json.dumps(schema)
 
 
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(app.static_folder + path):
+        return send_from_directory(app.static_folder, path)
+    else:
+        print("HELLO WORLD")
+        return send_from_directory(app.static_folder, 'index.html')
+
+
+
+
+'''
+@app.route("/static/<variable>")
+@app.route("/static/css/<variable>")
+def ret_css(variable):
+
+    path = "/static/static/css/" + variable
+
+    print(os.getcwd() + path)
+    try:
+        return url_for("path", path)
+    except:
+        return os.getcwd() + path
+'''
+'''
+@app.route("/static/js/<variable>")
+def ret_js(variable):
+
+    path = "/static/static/js/" + variable
+
+    print("PATH", os.getcwd() + path)
+    return send_from_directory('js', variable)
+'''
+
+@app.route("/manifest.json")
+def ret_manifest():
+    return url_for("./static/manifest.json")
 
 @app.route('/')
 def ret_none():
-    return "No data available"
-
+    return render_template("index.html")
 
 @app.route('/json')
 def ret_json():
@@ -220,55 +258,6 @@ def ret_json():
         json_data = f.read()
     return json_data
 
-
-@app.errorhandler(404)
-def get404d(num):
-
-    return "Got that 404, bro"
-
-
-@app.route('/<variable>')
-def ret_coords(variable):
-
-    comma_count = 0
-    for i, v in enumerate(variable):
-        if ',' == v:
-            comma_count += 1
-
-    if not comma_count == 1:
-        return "Got that comma problem!"
-
-    if not ',' in variable:
-        return "Invalid format"
-
-    # Read the formatted data and compare it to the GPS coordinates
-    with open("json_updated.json") as f:
-        json_data = f.read()
-
-    # convert the json string into a dictionary
-    json_data = json.loads(json_data)
-
-    # get the latitude and longitude from the URL with ',' as a delimiter
-    lat, lon = variable.split(',')
-
-    try:
-        lat = "{0:.2f}".format(float(lat))
-        lon = "{0:.2f}".format(float(lon))
-    except Exception as e:
-        return "There was an exception: " + str(e)
-    j = lat+lon
-
-    new_json = dict()
-    # set default values for JSON
-    new_json = {
-        "ASSAULT": 0, "MURDER": 0, "THEFT": 0, "RAPE": 0, "GTA": 0, "ROBBERY": 0, "OTHER": 0
-    }
-    new_json = json.dumps(new_json)
-
-# checks if there's a coordinates stored
-    if j in json_data:
-        new_json = json.dumps(json_data[j])
-    return new_json
 
 
 if __name__ == "__main__":

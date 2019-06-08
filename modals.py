@@ -63,10 +63,10 @@ def get_user_interface_schematic():
 
 class CloudDB:
 
-    user = 'root'
-    paswd = 'valdi0209'
+    user = 'webuser'
+    paswd = 'mysqlPass909'
     dialect = 'mysql+pymysql' # db_type + python_driver
-    server = '35.193.63.45'
+    server = '127.0.0.1'
     port = '3306'
     db = 'android_backend' # database created via googles UI
 
@@ -74,7 +74,7 @@ class CloudDB:
         self.metadata = metadata
         self.base = Base
         self.url = self.dialect + '://' + self.user + ':' + self.paswd + '@' + self.server + ":" + self.port + '/' + self.db
-        self.engine = create_engine(self.url, echo=True, pool_recycle=3600, pool_size=20, max_overflow=0)
+        self.engine = create_engine(self.url, echo=False, pool_recycle=3600, pool_size=20, max_overflow=0)
 
 
     def get_session(self):
