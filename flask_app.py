@@ -17,7 +17,7 @@ import modals
 '''
 
 
-app = Flask(__name__, static_folder='/home/paulina/Desktop/www/gcp_hackathon_project/static/static')
+app = Flask(__name__, static_folder='/home/paulina/Desktop/www/gcp_hackathon_project/static/build/')
 
 db = modals.CloudDB()
 
@@ -212,13 +212,10 @@ def get_single():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    if path != "" and os.path.exists(app.static_folder + path):
+    if path != "" and os.path.exists(app.static_folder + '/' + path):
         return send_from_directory(app.static_folder, path)
     else:
-        print("HELLO WORLD")
-        return send_from_directory(app.static_folder, 'index.html')
-
-
+        return ""
 
 
 '''
@@ -243,11 +240,11 @@ def ret_js(variable):
     print("PATH", os.getcwd() + path)
     return send_from_directory('js', variable)
 '''
-
+'''
 @app.route("/manifest.json")
 def ret_manifest():
-    return url_for("./static/manifest.json")
-
+    return send_from_directory("/manifest.json")
+'''
 @app.route('/')
 def ret_none():
     return render_template("index.html")
