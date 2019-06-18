@@ -218,33 +218,36 @@ def serve(path):
         return ""
 
 
-'''
-@app.route("/static/<variable>")
-@app.route("/static/css/<variable>")
-def ret_css(variable):
+@app.route("/main_db")
+def get_police_reports():
 
-    path = "/static/static/css/" + variable
-
-    print(os.getcwd() + path)
+    session = db.get_session()
     try:
-        return url_for("path", path)
+        lat = float(request.args.get("lat", None))
+        lon = float(request.args.get("lon", None))
     except:
-        return os.getcwd() + path
-'''
-'''
-@app.route("/static/js/<variable>")
-def ret_js(variable):
+        return ""
 
-    path = "/static/static/js/" + variable
+    upper_lat = float(lat + 1)
+    upper_lon = float(lon + 1)
+    lower_lat = float(lat - 1)
+    lower_lon = float(lon - 1)
 
-    print("PATH", os.getcwd() + path)
-    return send_from_directory('js', variable)
-'''
-'''
-@app.route("/manifest.json")
-def ret_manifest():
-    return send_from_directory("/manifest.json")
-'''
+    entries = session.query(modals.MasterCrimeTable).filter(
+        modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
+        modals.MasterCrimeTable.latitude <= upper_lat, modals.MasterCrimeTable.latitude >= lower_lat)\
+        .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
+
+    data = []
+
+    for entry in entries:
+        data.append(entry.__dict__)
+
+    session.close()
+    return json.dumps(data)
+
+
+
 @app.route('/')
 def ret_none():
     return render_template("index.html")
