@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baltimorecity/add_baltimore_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/baltimorecity/add_baltimore_city.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_to_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_to_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modals.py" beforeDir="false" afterPath="$PROJECT_DIR$/modals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/stress_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/stress_test.py" afterDir="false" />
     </list>
@@ -16,20 +15,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_orlando.coverage" NAME="add_orlando Coverage Results" MODIFIED="1557635191380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityoforlando" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$gcp_hackathon_project.coverage" NAME="gcp_hackathon_project Coverage Results" MODIFIED="1551914362574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$Flask__flask_app_py_.coverage" NAME="Flask (flask_app.py) Coverage Results" MODIFIED="1555890314633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_acgov.coverage" NAME="add_acgov Coverage Results" MODIFIED="1557634727529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acgov" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_sonoma.coverage" NAME="add_sonoma Coverage Results" MODIFIED="1557637040483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sonomacounty" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_naperville.coverage" NAME="add_naperville Coverage Results" MODIFIED="1557636653361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naperville" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_oakland.coverage" NAME="add_oakland Coverage Results" MODIFIED="1557636932197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oaklandnet" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_cincinnati.coverage" NAME="add_cincinnati Coverage Results" MODIFIED="1557635011534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cincinnati-oh" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_tacoma.coverage" NAME="add_tacoma Coverage Results" MODIFIED="1557635243724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityoftacoma" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_marincounty.coverage" NAME="add_marincounty Coverage Results" MODIFIED="1557636557554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marincounty" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_calgary.coverage" NAME="add_calgary Coverage Results" MODIFIED="1557634973118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/calgary" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_sfgov.coverage" NAME="add_sfgov Coverage Results" MODIFIED="1557637001346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sfgov" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_LA.coverage" NAME="add_LA Coverage Results" MODIFIED="1557636311524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lacity" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$url_test.coverage" NAME="url_test Coverage Results" MODIFIED="1553729239875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_mesaaz.coverage" NAME="add_mesaaz Coverage Results" MODIFIED="1557636581203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mesaaz" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_princegeorges.coverage" NAME="add_princegeorges Coverage Results" MODIFIED="1557636975973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/princegeorgescountymd" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_chattlibrary.coverage" NAME="add_chattlibrary Coverage Results" MODIFIED="1557634996558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chattlibrary" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_chicago.coverage" NAME="add_chicago Coverage Results" MODIFIED="1557635043344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityofchicago" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$flask_app.coverage" NAME="flask_app Coverage Results" MODIFIED="1554494668420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$modals.coverage" NAME="modals Coverage Results" MODIFIED="1554505921154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$gcp_hackathon_project.coverage" NAME="gcp_hackathon_project Coverage Results" MODIFIED="1551914362574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$Flask__flask_app_py_.coverage" NAME="Flask (flask_app.py) Coverage Results" MODIFIED="1554687622573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_albany.coverage" NAME="add_albany Coverage Results" MODIFIED="1557634767352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albanyny" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$webscraper.coverage" NAME="webscraper Coverage Results" MODIFIED="1554223563977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_baltimore_city.coverage" NAME="add_baltimore_city Coverage Results" MODIFIED="1554500740771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baltimorecity" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_buffaly.coverage" NAME="add_buffaly Coverage Results" MODIFIED="1554502689964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buffalony.good" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_baltimore_city.coverage" NAME="add_baltimore_city Coverage Results" MODIFIED="1557634854042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/baltimorecity" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_buffaly.coverage" NAME="add_buffaly Coverage Results" MODIFIED="1557634918499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buffalony.good" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$utils.coverage" NAME="utils Coverage Results" MODIFIED="1557637281000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$sql_copy.coverage" NAME="sql-copy Coverage Results" MODIFIED="1553891830755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$test_cities.coverage" NAME="test_cities Coverage Results" MODIFIED="1555778792097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_detroit.coverage" NAME="add_detroit Coverage Results" MODIFIED="1557636096708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detroitmi" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$stress_test.coverage" NAME="stress_test Coverage Results" MODIFIED="1553730296846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_tacoma.coverage" NAME="add_tacoma Coverage Results" MODIFIED="1554500568684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityoftacoma" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_new_york.coverage" NAME="add_new_york Coverage Results" MODIFIED="1554501605607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityofnewyork" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_LA.coverage" NAME="add_LA Coverage Results" MODIFIED="1554500841813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lacity" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_austin_tx.coverage" NAME="add_austin_tx Coverage Results" MODIFIED="1557634776508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/austintexas" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_dallas.coverage" NAME="add_dallas Coverage Results" MODIFIED="1557636036600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dallasopendata" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_kansas.coverage" NAME="add_kansas Coverage Results" MODIFIED="1557636271757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kcmo" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_nola.coverage" NAME="add_nola Coverage Results" MODIFIED="1557636862822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nola" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_urban_illinois.coverage" NAME="add_urban_illinois Coverage Results" MODIFIED="1557637074763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/urbanaillinois" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_new_york.coverage" NAME="add_new_york Coverage Results" MODIFIED="1557635167127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cityofnewyork" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_fortworthtx.coverage" NAME="add_fortworthtx Coverage Results" MODIFIED="1557636136528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fortworthtexas" />
     <SUITE FILE_PATH="coverage/gcp_hackathon_project$json_to_mysql.coverage" NAME="json_to_mysql Coverage Results" MODIFIED="1553532325953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/gcp_hackathon_project$url_test.coverage" NAME="url_test Coverage Results" MODIFIED="1553729239875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_brla.coverage" NAME="add_brla Coverage Results" MODIFIED="1557634870355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/brla" />
+    <SUITE FILE_PATH="coverage/gcp_hackathon_project$add_montgomery.coverage" NAME="add_montgomery Coverage Results" MODIFIED="1557636625414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/montgomerycountymd" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -52,83 +76,24 @@
         <item name="cloud_db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cloud_db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="android_backend: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cloud_db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="android_backend: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="master_crime_table: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42596218">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/flask_app.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#23#65#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/flask_app.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4662">
-                  <caret line="263" column="24" selection-start-line="263" selection-start-column="24" selection-end-line="263" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#23#65#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/json_to_sql.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/modals.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-                  <folding>
-                    <element signature="e#0#66#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/baltimorecity/add_baltimore_city.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2628">
-                  <caret line="155" column="2" selection-start-line="155" selection-start-column="2" selection-end-line="157" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
+              <folding>
+                <element signature="e#23#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,6 +116,9 @@
       <find>b.</find>
       <find>trans</find>
       <find>transform</find>
+      <find>single</find>
+      <find>/dump</find>
+      <find>dump</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,20 +138,34 @@
         <option value="$PROJECT_DIR$/tests/url_test.py" />
         <option value="$PROJECT_DIR$/json_to_mysql.py" />
         <option value="$PROJECT_DIR$/sql-copy.py" />
-        <option value="$PROJECT_DIR$/tests/stress_test.py" />
         <option value="$PROJECT_DIR$/html" />
         <option value="$PROJECT_DIR$/links_to_search" />
         <option value="$PROJECT_DIR$/webscraper.py" />
         <option value="$PROJECT_DIR$/json_to_sql.py" />
-        <option value="$PROJECT_DIR$/cityoftacoma/add_tacoma.py" />
-        <option value="$PROJECT_DIR$/lacity/add_LA.py" />
-        <option value="$PROJECT_DIR$/cityofnewyork/add_new_york.py" />
-        <option value="$PROJECT_DIR$/buffalony.good/add_buffaly.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console.sql" />
-        <option value="$PROJECT_DIR$/baltimorecity/add_baltimore_city.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console_1.sql" />
-        <option value="$PROJECT_DIR$/flask_app.py" />
+        <option value="$PROJECT_DIR$/tests/test_cities.py" />
+        <option value="$PROJECT_DIR$/tests/stress_test.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console.sql" />
         <option value="$PROJECT_DIR$/modals.py" />
+        <option value="$PROJECT_DIR$/baltimorecity/add_baltimore_city.py" />
+        <option value="$PROJECT_DIR$/buffalony.good/add_buffaly.py" />
+        <option value="$PROJECT_DIR$/cityofnewyork/add_new_york.py" />
+        <option value="$PROJECT_DIR$/cityoftacoma/add_tacoma.py" />
+        <option value="$PROJECT_DIR$/dallasopendata/add_dallas.py" />
+        <option value="$PROJECT_DIR$/kcmo/add_kansas.py" />
+        <option value="$PROJECT_DIR$/lacity/add_LA.py" />
+        <option value="$PROJECT_DIR$/marincounty/add_marincounty.py" />
+        <option value="$PROJECT_DIR$/mesaaz/add_mesaaz.py" />
+        <option value="$PROJECT_DIR$/montgomerycountymd/add_montgomery.py" />
+        <option value="$PROJECT_DIR$/naperville/add_naperville.py" />
+        <option value="$PROJECT_DIR$/nola/add_nola.py" />
+        <option value="$PROJECT_DIR$/oaklandnet/add_oakland.py" />
+        <option value="$PROJECT_DIR$/princegeorgescountymd/add_princegeorges.py" />
+        <option value="$PROJECT_DIR$/roseville/add_roseville.py" />
+        <option value="$PROJECT_DIR$/sfgov/add_sfgov.py" />
+        <option value="$PROJECT_DIR$/sonomacounty/add_sonoma.py" />
+        <option value="$PROJECT_DIR$/urbanaillinois/add_urban_illinois.py" />
+        <option value="$PROJECT_DIR$/flask_app.py" />
       </list>
     </option>
   </component>
@@ -200,15 +182,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gcp_hackathon_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gcp_hackathon_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hackathon/gcp_hackathon_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -231,8 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (flask_app.py)">
-    <configuration name="add_LA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.utils">
+    <configuration name="add_princegeorges" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gcp_hackathon_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,12 +236,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lacity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/princegeorgescountymd" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lacity/add_LA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/princegeorgescountymd/add_princegeorges.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="add_buffaly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add_sfgov" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gcp_hackathon_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,12 +258,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/buffalony.good" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sfgov" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buffalony.good/add_buffaly.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sfgov/add_sfgov.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="add_new_york" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add_sonoma" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gcp_hackathon_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,12 +280,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cityofnewyork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sonomacounty" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cityofnewyork/add_new_york.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sonomacounty/add_sonoma.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +294,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add_urban_illinois" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gcp_hackathon_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urbanaillinois" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urbanaillinois/add_urban_illinois.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gcp_hackathon_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,28 +329,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modals.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Flask (flask_app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
-      <module name="gcp_hackathon_project" />
-      <option name="target" value="$PROJECT_DIR$/flask_app.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="gcp_hackathon_project" type="Python.FlaskServer" factoryName="Flask server">
@@ -351,20 +354,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.add_princegeorges" />
+      <item itemvalue="Python.add_sfgov" />
+      <item itemvalue="Python.add_sonoma" />
+      <item itemvalue="Python.add_urban_illinois" />
+      <item itemvalue="Python.utils" />
       <item itemvalue="Flask server.gcp_hackathon_project" />
-      <item itemvalue="Flask server.Flask (flask_app.py)" />
-      <item itemvalue="Python.add_LA" />
-      <item itemvalue="Python.add_new_york" />
-      <item itemvalue="Python.add_buffaly" />
-      <item itemvalue="Python.modals" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (flask_app.py)" />
-        <item itemvalue="Python.modals" />
-        <item itemvalue="Python.add_buffaly" />
-        <item itemvalue="Python.add_new_york" />
-        <item itemvalue="Python.add_LA" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.add_urban_illinois" />
+        <item itemvalue="Python.add_sonoma" />
+        <item itemvalue="Python.add_sfgov" />
+        <item itemvalue="Python.add_princegeorges" />
       </list>
     </recent_temporary>
   </component>
@@ -416,6 +419,28 @@
       <workItem from="1554835967491" duration="163000" />
       <workItem from="1554836427497" duration="58000" />
       <workItem from="1554842986370" duration="1041000" />
+      <workItem from="1555739927451" duration="2312000" />
+      <workItem from="1555777775990" duration="6361000" />
+      <workItem from="1555889868903" duration="26000" />
+      <workItem from="1555889928282" duration="1548000" />
+      <workItem from="1556049547577" duration="1927000" />
+      <workItem from="1556052857270" duration="2502000" />
+      <workItem from="1556145038251" duration="91000" />
+      <workItem from="1556152929852" duration="162000" />
+      <workItem from="1556171918487" duration="687000" />
+      <workItem from="1556217460779" duration="657000" />
+      <workItem from="1556218957506" duration="599000" />
+      <workItem from="1556225720082" duration="599000" />
+      <workItem from="1556262249747" duration="1073000" />
+      <workItem from="1556310558527" duration="607000" />
+      <workItem from="1556405489522" duration="598000" />
+      <workItem from="1556416603405" duration="559000" />
+      <workItem from="1556418664984" duration="1802000" />
+      <workItem from="1556823942970" duration="428000" />
+      <workItem from="1557634473301" duration="6888000" />
+      <workItem from="1557647260716" duration="120000" />
+      <workItem from="1557779782378" duration="42000" />
+      <workItem from="1560896832481" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="Changed to port 80, added some print statements.">
       <created>1551915688896</created>
@@ -536,11 +561,39 @@
       <option name="project" value="LOCAL" />
       <updated>1554539902812</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed the /single endpoint to the optimized user_interface table.">
+      <created>1555740204340</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555740204340</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Got the query down. I have no idea if it's efficient.">
+      <created>1555890065344</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555890065344</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed the dump url">
+      <created>1555890440698</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555890440698</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added some changes to the stress_test.py">
+      <created>1556053133740</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556053133741</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124867000" />
+    <option name="totallyTimeSpent" value="154515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,14 +606,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1045" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" weight="0.10032017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.122732125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3995633" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26260504" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39868566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38773274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286026" />
@@ -568,18 +622,21 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.61790395" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.46724892" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2161572" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18400876" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21577218" />
       <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.4030668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.18196371" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18196371" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed to port 80, added some print statements." />
@@ -592,13 +649,16 @@
     <MESSAGE value="removed db variable from json output." />
     <MESSAGE value="Experimenting with list comprehension and SQLFilters" />
     <MESSAGE value="Experimenting with list comprehension and SQLFilters; quick_fix" />
-    <MESSAGE value="Got the query down. I have no idea if it's efficient." />
     <MESSAGE value="added database dump" />
     <MESSAGE value="Changed the query to something a little more stream lined, changed the table to have floats instead of strings" />
     <MESSAGE value="Added data to the Database. Did some house keeping." />
     <MESSAGE value="fixed type" />
     <MESSAGE value="added /single endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="added /single endpoint" />
+    <MESSAGE value="Changed the /single endpoint to the optimized user_interface table." />
+    <MESSAGE value="Got the query down. I have no idea if it's efficient." />
+    <MESSAGE value="Fixed the dump url" />
+    <MESSAGE value="Added some changes to the stress_test.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some changes to the stress_test.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,13 +690,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/modals.py</url>
-          <line>17</line>
+          <line>47</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modals.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
@@ -650,182 +705,134 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
-          <line>272</line>
+          <line>273</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
-          <line>211</line>
+          <line>213</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
-          <line>199</line>
+          <line>201</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
-          <line>280</line>
-          <option name="timeStamp" value="35" />
+          <line>275</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_cities.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flask_app.py</url>
-          <line>274</line>
-          <option name="timeStamp" value="39" />
+          <line>151</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dallasopendata/add_dallas.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dallasopendata/add_dallas.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dallasopendata/add_dallas.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nola/add_nola.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cityofnewyork/add_new_york.py">
+    <entry file="file://$PROJECT_DIR$/json_to_sql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib/python3.6/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="503">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/worldcities.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17262">
+          <caret line="959" column="56" selection-start-line="959" selection-start-column="56" selection-end-line="959" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/uscitiesv1.5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_cities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#21#34#0" expanded="true" />
+            <element signature="e#21#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cityofnewyork/cityofnewyork5853.good">
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webscraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="12" selection-end-column="24" />
+        <state relative-caret-position="-439" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/links_to_search">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_links.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/stress_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buffalony.good/buffalony8890.good">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="63" selection-start-column="42" selection-end-column="63" />
+    <entry file="file://$PROJECT_DIR$/modals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/_strptime.py">
+    <entry file="file://$PROJECT_DIR$/acgov/add_acgov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="361" selection-start-line="361" selection-end-line="361" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buffalony.good/add_buffaly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado9933">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado7316">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado8136">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4905" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado7032">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado6373">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado5670">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado5149">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado4690">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado4375">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado3635">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado3070">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado3002">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado2909">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado1431">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado929">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado666">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorado/colorado495">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lacounty/lacounty8629">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30358" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle603">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle1671">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle1539">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle3274">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle2991">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://DATABASE/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8.TABLE:android_backend.locations2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>2afb7e21-3ad3-4b21-a73e-451bab0e1ea8.TABLE:android_backend.locations2</OriginalElement>
-          <nodes>
-            <node x="" y="">2afb7e21-3ad3-4b21-a73e-451bab0e1ea8.TABLE:android_backend.locations2</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="78.0" y="136.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/schema/android_backend/table/dated_locations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="162">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31842">
-          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="461">
+          <caret line="2293" selection-start-line="2293" selection-end-line="2293" />
         </state>
       </provider>
     </entry>
@@ -836,116 +843,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle3480">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle4144">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle4190">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seattle/seattle4725">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/flask/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/schema/android_backend/table/master_crime_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/sqlalchemy/sql/elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/sqlalchemy/orm/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="3316" selection-start-line="3316" selection-end-line="3316" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/sqlalchemy/engine/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="987" selection-start-line="987" selection-end-line="987" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/sqlalchemy/engine/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="516" selection-start-line="516" selection-end-line="516" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/schema/android_backend/table/locations2">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="assaults &gt; 5" />
-            <filter text="longitude &lt; 117.27 and longitude &gt; 117.0" />
-            <filter text="longitude &lt; 117.27" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console_1.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2afb7e21-3ad3-4b21-a73e-451bab0e1ea8/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json_to_sql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baltimorecity/add_baltimore_city.py">
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2628">
-          <caret line="155" column="2" selection-start-line="155" selection-start-column="2" selection-end-line="157" selection-end-column="22" />
+        <state relative-caret-position="461">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modals.py">
+    <entry file="file://$PROJECT_DIR$/albanyny/add_albany.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austintexas/add_austin_tx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="281">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baltimorecity/add_baltimore_city.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brla/add_brla.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buffalony.good/add_buffaly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calgary/add_calgary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chattlibrary/add_chattlibrary.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cincinnati-oh/add_cincinnati.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityofchicago/cityofchicago6">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityofchicago/add_chicago.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityofnewyork/add_new_york.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dallasopendata/dallasopendata.maybe">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="96" column="18" lean-forward="true" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityoforlando/add_orlando.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityoftacoma/add_tacoma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dallasopendata/add_dallas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detroitmi/add_detroit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fortworthtexas/add_fortworthtx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-997" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kcmo/add_kansas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lacity/add_LA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marincounty/add_marincounty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesaaz/add_mesaaz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/montgomerycountymd/add_montgomery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naperville/add_naperville.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nola/nola.better">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="18">
+          <caret line="1" column="138" selection-start-line="1" selection-start-column="138" selection-end-line="1" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nola/add_nola.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oaklandnet/add_oakland.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/princegeorgescountymd/add_princegeorges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roseville/add_roseville.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfgov/add_sfgov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonomacounty/add_sonoma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urbanaillinois/add_urban_illinois.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flask_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="306">
+          <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
           <folding>
             <element signature="e#23#65#0" expanded="true" />
           </folding>
