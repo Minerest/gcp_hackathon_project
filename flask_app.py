@@ -48,9 +48,9 @@ def grab_from_user_interface():
     lower_lon = float(lon - 0.05)
 
     for entry in Session.query(modals.UserInterface).filter(and_(
-        modals.UserInterface.longitude <= upper_lon, modals.UserInterface.longitude >= lower_lon,
-        modals.UserInterface.latitude <= upper_lat, modals.UserInterface.latitude >= lower_lat
-                                                                    )):
+            modals.UserInterface.longitude <= upper_lon, modals.UserInterface.longitude >= lower_lon,
+            modals.UserInterface.latitude <= upper_lat, modals.UserInterface.latitude >= lower_lat)):
+
         d = entry.__dict__
         entry_json = dict()
         for i, j in d.items():
@@ -58,8 +58,8 @@ def grab_from_user_interface():
                 entry_json[i] = j
         y = entry_json["longitude"]
         x = entry_json["latitude"]
-        ydiff = int(((y - lon) + 0.05) * 100)
-        xdiff = int(((x - lat) + 0.05) * 100)
+        ydiff = int((y - lon + 0.05) * 100)
+        xdiff = int((x - lat + 0.05) * 100)
         indx = 10 * ydiff + xdiff
         for k, v in entry_json.items():
             if k == "latitude" or k == "longitude":
@@ -111,12 +111,12 @@ def make_db_query():
 
     cnt = 0
     for entry in Session.query(modals.Location).filter(and_(
-        modals.Location.longitude <= upper_lon, modals.Location.longitude >= lower_lon,
-        modals.Location.latitude <= upper_lat, modals.Location.latitude >= lower_lat
-                                                                    )):
+            modals.Location.longitude <= upper_lon, modals.Location.longitude >= lower_lon,
+            modals.Location.latitude <= upper_lat, modals.Location.latitude >= lower_lat)):
+
         d = entry.__dict__
         entry_json = dict()
-        cnt+=1
+        cnt += 1
         for i, j in d.items():
             if i != "_sa_instance_state" and i != "id":
                 entry_json[i] = j
@@ -151,7 +151,7 @@ def dump_db():
             yield json.dumps(str(item))
     a = []
     Session = db.get_session()
-    for entry in Session.query(modals.UserInterface).limit(2000):
+    for entry in Session.query(modals.UserInterface).limit(200):
         a.append(entry.__dict__)
     try:
         Session.commit()
@@ -236,12 +236,12 @@ def get_police_reports():
     entries = session.query(modals.MasterCrimeTable).filter(
         modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
         modals.MasterCrimeTable.latitude <= upper_lat, modals.MasterCrimeTable.latitude >= lower_lat)\
-        .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
+            .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
 
     data = []
 
     for entry in entries:
-        data.append(entry.__dict__)
+        data.append(str(entry.__dict__))
 
     session.close()
     return json.dumps(data)
