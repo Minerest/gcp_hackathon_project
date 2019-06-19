@@ -2,7 +2,6 @@
 from flask import Flask, request, Response, render_template, send_from_directory
 import json
 from sqlalchemy import and_
-import logging
 import os
 # user library that contains the format for table entries.
 import modals
@@ -228,20 +227,27 @@ def get_police_reports():
     except:
         return ""
 
-    upper_lat = float(lat + 1)
-    upper_lon = float(lon + 1)
-    lower_lat = float(lat - 1)
-    lower_lon = float(lon - 1)
+    upper_lat = float(lat + .05)
+    upper_lon = float(lon + .05)
+    lower_lat = float(lat - .05)
+    lower_lon = float(lon - .05)
 
     entries = session.query(modals.MasterCrimeTable).filter(
-        modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
-        modals.MasterCrimeTable.latitude <= upper_lat, modals.MasterCrimeTable.latitude >= lower_lat)\
-            .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
+            modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
+            modals.MasterCrimeTable.latitude <= upper_lat, modals.MasterCrimeTable.latitude >= lower_lat)\
+                                                    .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
 
     data = []
+    bad_keys = ["_sa_instance_state", "id"]
 
     for entry in entries:
-        data.append(str(entry.__dict__))
+        data_dict = dict()
+        for k, v in entry.__dict__.items():
+            if not k in bad_keys:
+                data_dict[k] = v if k != "date" else v.strftime("%Y-%m-%d")
+        data.append(data_dict)
+
+
 
     session.close()
     return json.dumps(data)
