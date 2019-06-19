@@ -57,17 +57,11 @@ class StressTester():
 def main():
     start_time = datetime.now()
     try:
-        sys.argv[1]
+        if sys.argv[1] == "-h":
+            print("./stress_test.py ip.address n_times")
         print(sys.argv[1])
         ip = sys.argv[1]
         dot_count = 0
-        for i, v in enumerate(ip):
-            if v == '.':
-                dot_count += 1
-
-        if dot_count != 3:
-            print("Invalid format")
-            return
         if sys.argv[2]:
             tasks = int(sys.argv[2])
 
@@ -76,6 +70,8 @@ def main():
     except IndexError:
         tester = StressTester()
         pass
+    except:
+        print("./stress_test.py ip.address n_times")
     try:
         tester.stress_test()
     except Exception as e:

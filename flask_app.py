@@ -247,17 +247,16 @@ def get_police_reports():
     return json.dumps(data)
 
 
-
 @app.route('/')
 def ret_none():
     return render_template("index.html")
+
 
 @app.route('/json')
 def ret_json():
     with open("json_updated.json") as f:
         json_data = f.read()
     return json_data
-
 
 
 if __name__ == "__main__":
