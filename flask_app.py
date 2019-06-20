@@ -204,7 +204,6 @@ def get_single():
         Session.commit()
     finally:
         Session.close()
-    print(schema)
     return json.dumps(schema)
 
 
@@ -217,8 +216,10 @@ def serve(path):
         return ""
 
 
+
 @app.route("/main_db")
 def get_police_reports():
+
 
     session = db.get_session()
     try:
@@ -227,10 +228,10 @@ def get_police_reports():
     except:
         return ""
 
-    upper_lat = float(lat + .05)
-    upper_lon = float(lon + .05)
-    lower_lat = float(lat - .05)
-    lower_lon = float(lon - .05)
+    upper_lat = float(lat + 50.05)
+    upper_lon = float(lon + 50.05)
+    lower_lat = float(lat - 50.05)
+    lower_lon = float(lon - 50.05)
 
     entries = session.query(modals.MasterCrimeTable).filter(
             modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
@@ -243,11 +244,13 @@ def get_police_reports():
     for entry in entries:
         data_dict = dict()
         for k, v in entry.__dict__.items():
-            if not k in bad_keys:
+            if k not in bad_keys:
                 data_dict[k] = v if k != "date" else v.strftime("%Y-%m-%d")
-        data.append(data_dict)
 
+        data.append(str(data_dict))
 
+    a = json.loads(json.dumps(data))
+    print(a)
 
     session.close()
     return json.dumps(data)
