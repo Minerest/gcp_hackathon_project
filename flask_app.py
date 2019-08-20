@@ -75,71 +75,6 @@ def grab_from_user_interface():
 
     return data_to_ret
 
-@app.route('/testing')
-def make_db_query():
-
-    ''' hits the database based on url parameters '''
-    schematic = modals.get_location_schematic()
-    data_array = [schematic.copy() for i in range(111)] # initialize an array of 100 full of 0's
-    # ip.addr/testing?lat=12.34&lon=43.21
-    lat = request.args.get('lat', None)
-    lon = request.args.get('lon', None)
-    Session = db.get_session()
-    # Thre's no reason we should take anything other than numbers as an input
-    try:
-        lat = float(lat)
-        lon = float(lon)
-    except Exception as e: # Can't give hackers any clues so same output as any other generic error.
-        return "No data available"
-
-    if lat is None or lon is None:
-        return "No data available"
-
-    # So this is a total difference of .1 lat/lon which is 7 miles
-    upper_lat = float(lat + 0.05)
-    upper_lon = float(lon + 0.05)
-    lower_lat = float(lat - 0.05)
-    lower_lon = float(lon - 0.05)
-
-    # The algorithm to actually append values to a data array of 100:
-    # The dead center of the array a[49](?)
-    # The further north the latitude, the smaller the y value
-    # the further east the longitude, the larger the x value
-    # data_array[ y * 10 + x] where x and y are less than 10.
-
-
-    cnt = 0
-    for entry in Session.query(modals.Location).filter(and_(
-            modals.Location.longitude <= upper_lon, modals.Location.longitude >= lower_lon,
-            modals.Location.latitude <= upper_lat, modals.Location.latitude >= lower_lat)):
-
-        d = entry.__dict__
-        entry_json = dict()
-        cnt += 1
-        for i, j in d.items():
-            if i != "_sa_instance_state" and i != "id":
-                entry_json[i] = j
-        y = round(entry_json["longitude"], 2)
-        x = round(entry_json["latitude"], 2)
-        ydiff = int(((y - lon) + 0.05) * 100)
-        xdiff = int(((x - lat) + 0.05) * 100)
-        indx = 10 * ydiff + xdiff
-        for k, v in entry_json.items():
-            if k == "latitude" or k == "longitude":
-                data_array[indx][k] = round(v, 2)
-            else:
-                data_array[indx][k] += round(v, 2)
-    data_to_ret = json.dumps(data_array)
-
-    try:
-        Session.flush()
-        Session.commit()
-    finally:
-        Session.close()
-
-    print(cnt)
-    return data_to_ret
-
 
 @app.route('/testing/dump')
 def dump_db():
@@ -228,15 +163,15 @@ def get_police_reports():
     except:
         return ""
 
-    upper_lat = float(lat + 500.05)
-    upper_lon = float(lon + 500.05)
-    lower_lat = float(lat - 500.05)
-    lower_lon = float(lon - 500.05)
+    upper_lat = float(lat + 10.05)
+    upper_lon = float(lon + 10.05)
+    lower_lat = float(lat - 10.05)
+    lower_lon = float(lon - 10.05)
 
     entries = session.query(modals.MasterCrimeTable).filter(
             modals.MasterCrimeTable.longitude <= upper_lon, modals.MasterCrimeTable.longitude >= lower_lon,
             modals.MasterCrimeTable.latitude <= upper_lat, modals.MasterCrimeTable.latitude >= lower_lat)\
-                                                    .order_by(modals.MasterCrimeTable.date.desc()).limit(300)
+                                                    .order_by(modals.MasterCrimeTable.date.desc()).limit(30)
 
     data = []
     bad_keys = ["_sa_instance_state", "id"]
@@ -257,12 +192,6 @@ def get_police_reports():
 def ret_none():
     return render_template("index.html")
 
-
-@app.route('/json')
-def ret_json():
-    with open("json_updated.json") as f:
-        json_data = f.read()
-    return json_data
 
 
 if __name__ == "__main__":
